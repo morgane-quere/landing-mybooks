@@ -1,0 +1,44 @@
+.cards{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.cards ol{
+	padding-left: 0px;
+}
+.card{
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px 20px rgba(0,0,0,.1);
+    border-radius: 5px;
+    padding: 0% 2% 0% 0%;
+    align-content: center;
+    flex-basis: 440px;
+    height: 250px;
+    flex-grow: 1;
+    margin: 10px;
+}
+.card-text{
+	text-align: center;
+	width: 40%;
+}
+.card-pleintext{
+	text-align: justify;
+    width: 66%;
+}
+.card-text h1{
+	font-size: 35px;
+}
+.card-text h2{
+	margin-bottom: 15%;
+	font-family: 'Open Sans';
+	font-size: 18px;
+	color: black;
+	font-weight: normal;
+}
+.card.btn-blue{
+	padding: 15px 50px;
+}
+
